@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body bgcolor="lavender"><br><br>
+    <form style="background-color: lavenderblush; padding: 20px; border-radius: 8px; width: 305px; margin: auto;width:50%">
+        <fieldset>
+            <legend style="font-weight:bold;font-size:20px">Register Here</legend>
+            First Name:<br>
+            <input type="text" name="firstname" placeholder="eg. Tanmay "
+                style="width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+            <br>
+            Last Name:<br>
+            <input type="text" name="lastname" placeholder="eg. Gharat"
+                style="width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+            <br>
+            Enter Date Of Birth:<input type="date" name="DOB"
+                style="width:100%; padding: 8px; margin: 5px 0;  box-sizing:border-box; border:1px solid #ccc; border-radius: 4px;">
+            Enter Your Address:<br>
+            <textarea name="address" rows="3" cols="30"
+                style="width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;"></textarea><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            Enter Your State:
+            <input list="State" name="State" style="width: 100%;padding:8px;margin:5px 0;box-sizing:border-box;border:1px solid #ccc;border-radius:4px;" required>
+            <datalist id="State" >
+                <option value="Andhra Pradesh">
+                <option value="Arunachal Pradesh">
+                <option value="Assam">
+                <option value="Bihar">
+                <option value="Chhattisgarh">
+                <option value="Goa">
+                <option value="Haryana">
+                <option value="Himachal Pradesh">
+                <option value="Jharkhand">
+                <option value="Karnataka">
+                <option value="Madhya Pradesh">
+                <option value="Maharashtra">
+                <option value="Manipur">
+                <option value="Meghalaya">
+                <option value="Mizoram">
+                <option value="Nagaland">
+                <option value="Odisha">
+                <option value="Punjab">
+                <option value="Rajasthan">
+                <option value="Sikkim">
+                <option value="Tamil Nadu">
+                <option value="Telangana">
+                <option value="Tripura">
+                <option value="Uttar Pradesh">
+                <option value="Uttarakhand">
+                <option value="West Bengal">
+                <option value="Seawoods-Darave" >
+            </datalist><br><br>
+            Enter your Domain:
+            <select name="domain"
+                style="width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+                <option value="AI-ML">AI-Ml</option>
+                <option value="Cyber Security">Cyber Security</option>
+                <option value="Data Analyst">Data Analyst</option>
+                <option value="Backend">Backend</option>
+                <!-- <option value="hum pe to hai hi na" selected>Hum pe to hai hi na</option> -->
+            </select><br><br>
+            <input list="browsers" name="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist><br><br>
+            User Name:<br>
+            <input type="text" name="userid"
+                style="width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+            <br>
+            User Password:<br>
+            <input type="password" name="psw"
+                style="width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;"><br><br>
+            <input type="submit" name="submit" value="Submit"
+            style="width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;"><br>
+            <input type="reset" name="reset" value="Reset"
+            style="width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
